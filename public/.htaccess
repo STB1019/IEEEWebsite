@@ -1,0 +1,2 @@
+ErrorDocument 404 http://localhost/IEEEWebsite/IEEEWebsite/404.php
+ErrorDocument 500 http://localhost/IEEEWebsite/IEEEWebsite/500.php
