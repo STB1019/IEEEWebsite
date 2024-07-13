@@ -13,6 +13,10 @@ This website is primarily built using two frameworks: Bootstrap (CSS) for the fr
 7. Start database (MAMP or equivalent)
 8. Run start.bat (or `php artisan serve`)
 
+## Important Notes
+
+if you don't have a vendor folder, you need to run `composer update`. The working version should have a vendor folder and the file .env.
+
 ## File Organization
 
 The files are organized following the MVC (Model-View-Controller) structure predefined by Laravel for easy understanding and modification. The views are created using Blade and are located in the `resources/views` folder. The views are based on the master.blade.php file contained in the `resources/views/layouts` folder. The other two layouts, master_h and master_hf, derive from the first one, with master_h containing the head and master_hf containing the footer and head. All the pages utilize standard components that I created, which are located in the `resources/views/components` folder.
