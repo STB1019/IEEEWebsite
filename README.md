@@ -11,7 +11,8 @@ This website is primarily built using two frameworks: Bootstrap (CSS) for the fr
 5. Edit the .env file and set your database credentials
 6. Run `php artisan storage:link` (Needed for pictures)
 7. Start database (MAMP or equivalent)
-8. Run start.bat (or `php artisan serve`)
+8. Run migrations `php artisan migrate`
+9. Run start.bat (or `php artisan serve`)
 
 ## Important Notes
 
