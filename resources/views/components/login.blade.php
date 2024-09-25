@@ -34,7 +34,7 @@
 
                             <input class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight" id="login-submit" type="submit" value="Login">
                         </form>
-                        <a href="{{ route('register') }}" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill animated slideInRight">Go to Registration</a>
+                        {{--<a href="{{ route('register') }}" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill animated slideInRight">Go to Registration</a>--}}
 
                     </div>
 
