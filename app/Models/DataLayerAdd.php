@@ -151,7 +151,8 @@ class DataLayerAdd
         $user->name = $name;
         $user->password = Hash::make($password);
         $user->email = $email;
-        $user->role = "member";
+        $userCount = User::count();
+        $user->role = ($userCount === 0) ? "admin" : "member";
         $user->email_verified_at = now();
         $user->save();
     }
